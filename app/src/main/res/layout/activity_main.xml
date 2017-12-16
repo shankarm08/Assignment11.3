@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#F4A460"
+    tools:context="com.example.shankar.androidinsertblobdatainsqlite.MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#98FB98"
+        android:hint=" Enter Name"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:textColor="#4B0082"
+        android:textStyle="bold"
+        android:id="@+id/name_et"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#98FB98"
+        android:id="@+id/age_et"
+        android:hint=" Enter Age"
+        android:textSize="20dp"
+        android:layout_below="@+id/name_et"
+        android:textColor="#4B0082"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:layout_marginTop="15dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/show_btn"
+        android:gravity="center"
+        android:text="Save in the DataBase and Show"
+        android:layout_centerVertical="true"
+        android:textSize="15dp" />
+</RelativeLayout>
